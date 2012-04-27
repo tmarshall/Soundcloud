@@ -1,0 +1,27 @@
+{ 
+    "name": "Soundcloud_API", 
+    "description": "Used to make requests to the Facebook Graph API", 
+    "version": "0.0.1", 
+    "author": "Tim Marshall <timothyjmarhall@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/tmarshall/Soundcloud.git"
+    },
+    "bugs": {  }, 
+    "os": [ "osx", "linux" ], 
+    "directories": {  }, 
+    "main": "api", 
+    "dependencies" : { 
+        "request": "*"
+    },
+    "engines": { 
+        "node" : ">=0.4.8" 
+    },
+    "bugs": { 
+        "url" : "http://github.com/tmarshall/Soundcloud/issues" 
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://github.com/tmarshall/Soundcloud/raw/master/LICENSE"
+    }]
+}
